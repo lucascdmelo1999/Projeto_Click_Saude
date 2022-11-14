@@ -30,3 +30,50 @@ body {
     box-shadow: inset 0 -3px 0 0 rgba(187, 221, 187, 0.096);
     color: white;
 }
+
+h1{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+    color: black;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.login{
+    padding-top: 40px;
+    font-size: 25px;
+    padding-left: 12px;
+    color: black;
+}
+.senha{
+    font-size: 25px;
+    color: black;
+}
+
+.esqueciSenha a{
+    box-shadow: inset 0 -3px 0 0 rgba(187, 221, 187, 0.096);
+    padding-left: 232px;
+}
+
+.botoes{
+    width: 350px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #00ffd3;
+}
+
+.botoes:active{
+    background-color: #12473f;
+    border-color: black;
+    color: white;    
+}
