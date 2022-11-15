@@ -25,7 +25,7 @@
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 10px;
-    margin-top: 180px; 
+    margin-top: 100px; 
     border-radius: 10px;
     font-weight: bold; 
     border-color: black; 
@@ -103,4 +103,19 @@ h1{
     background-color: #12473f;
     border-color: black;
     color: white;    
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+}
+
+.telcad{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

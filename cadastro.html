@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assert/css/main.css">
+    <title>Cadastro de usúario</title>
+    <link rel="shortcut icon" href="Assert/Imagens/clickSaude.ico" type="image/x-icon">
+</head>
+<body>
+    <a href="entrar.html">
+        <img src="Assert/Imagens/botao_voltar.png" alt="botão para voltar a tela" class="botaoVoltar">
+    </a>
+    <div class="telcad">
+        <div>
+            <form class="forms">
+                <h1>Cadastro de usúario</h1> 
+                Nome: 
+                <input type="text" style="margin-bottom: 10px;" placeholder="Romulo"> 
+                Senha: 
+                <input type="password" style="margin-bottom: 10px;" placeholder="******"> 
+                Altura: 
+                <input type="number"style="margin-bottom: 10px;" placeholder="1.92"> 
+                Peso: 
+                <input type="number" style="margin-bottom: 10px;" placeholder="92"> 
+                Idade: 
+                <input type="number" style="margin-bottom: 20px;" placeholder="30"> 
+                Sua meta:
+                (Descreva em poucas palavras) 
+                <textarea cols="30" rows="10"></textarea> 
+
+            </form>
+        </div>
+    
+        <div class="entrar">
+            <a href="login.html" onclick="cadsucess()">Cadastrar</a>
+        </div>
+    </div>
+    <script>
+        function cadsucess(){
+            alert("Cadastro realizado com sucesso!");
+        }
+    </script>
+</body>
+</html>
