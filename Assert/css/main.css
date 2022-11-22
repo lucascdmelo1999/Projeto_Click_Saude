@@ -222,7 +222,7 @@ h1{
     font-family: Arial, Helvetica, sans-serif;  
 }
 
-/*prmiações*/
+/*premiações*/
 
 .conteinerpre{
     width: 300px;
@@ -247,4 +247,46 @@ h1{
     padding: 10px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;  
+}
+
+/*Tela de exercicios*/
+
+.treino{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.treino label{
+    margin-left: 10px;
+}
+
+.treino a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.camera{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 10px;
+
+}
+.camera img{
+    height: 40px;
+    width: 40px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 1px;
+}
+
+.tiutloexec{
+    height:150px;
 }
