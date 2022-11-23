@@ -290,3 +290,13 @@ h1{
 .tiutloexec{
     height:150px;
 }
+
+/*tela estatistica*/
+
+.estast form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+}
