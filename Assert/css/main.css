@@ -300,3 +300,40 @@ h1{
     background-size: cover;
     align-items: center;
 }
+
+/*Tela RRefeições*/
+
+.botaoVoltar{
+    padding-right: 1852px;
+}
+
+.botaoCamera{
+    padding-left: 1810px
+}
+
+span{
+    font-weight: bold;
+}
+h1{
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.botoesRef{
+    width: 15px;
+    height: 15px;
+}
+
+.principal{
+    text-align: center;
+    font-weight: bold;
+}
